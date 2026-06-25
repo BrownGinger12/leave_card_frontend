@@ -519,3 +519,6 @@ Balance Update
 - Employee leave balances are cached projections of the ledger.
 - All balance-changing operations must go through the backend ledger service.
 - Never derive balances from frontend calculations.
+- dates without pay and with pay
+- new page for calendar dates with pay, without pay and holidays
+- add personal reason to vsc

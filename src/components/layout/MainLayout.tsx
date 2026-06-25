@@ -4,10 +4,10 @@ import Sidebar from './Sidebar'
 
 export default function MainLayout() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-background">
       <Navbar />
       <Sidebar />
-      <main className="ml-56 mt-16 p-6">
+      <main className="ml-64 mt-16 p-6">
         <Outlet />
       </main>
     </div>
